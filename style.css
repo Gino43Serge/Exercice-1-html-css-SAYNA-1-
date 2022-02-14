@@ -1,0 +1,169 @@
+
+body
+{
+    font-family:Arial,san-serif;
+}
+nav
+{
+    display :flex;
+    background-color: #C55394;
+    height: 45px;
+    justify-content: space-between;
+}
+nav a
+{
+    width :15%;
+}
+#MyUnicorn 
+{
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    padding-top :10px;
+    padding-bottom: 12.5px;
+    padding-left: 15px;
+    padding-right: 5px;
+   
+   }
+#end 
+{   width : 22%;
+    display :flex;
+    flex: end; 
+    font-size: 11.5px;
+    text-transform: uppercase;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+#MyUnicorn a:hover
+{
+    background-color: #EB43A3;
+    padding-top :10px;
+    padding-bottom: 4px;
+}
+#end a:hover
+{
+    background-color: #EB43A3;
+    padding-top: 15.5px;
+    padding-bottom: 15.5px;
+}
+#sec
+{
+    margin-left: 15%;
+    margin-top: 0%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    background-color:white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow:1px 1px 1px 1px black;
+    
+
+}
+footer
+{
+    background-color: rgb(226, 43, 171);
+}
+
+article,aside
+{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+section 
+{
+    background: url("assets/img/background.png");
+}
+#img
+{
+    display: flex;
+    padding-right: 15px;
+    justify-content: space-between;
+    
+}
+#titre
+{
+    text-align: center;
+    background:url("assets/img/rainbow.png") no-repeat;
+    padding-top: 55px;
+    padding-bottom:10px;
+    padding-left :15px;
+    padding-right: 15px;
+    background-position-y:15px ;
+    background-position-x:center;
+   
+}
+a
+{
+    color:white;
+    text-decoration: none;
+}
+
+#tete
+{
+    margin-bottom: 0px;
+}
+h1
+{
+    color:#C55394;
+    font-family: 'Courgette', cursive;
+}
+h1,h2,h3
+{
+    color :#EB43A3;
+    font-family: 'Courgette', cursive;
+}
+
+img
+{
+    width: 150%;
+}
+figure
+{
+   
+    width:150%;
+    position: relative;
+    
+}
+figure figcaption
+{
+    width: 150%;
+    color: #FFF;
+    text-align: center;
+    background-color:#333 ;
+    padding-top: 7.5px;
+    padding-bottom: 5px;
+    opacity: 0.7; 
+    position: absolute;
+    bottom: 0; 
+
+}
+aside
+{
+    display: flex;
+    padding-bottom: 10%;
+    justify-content: space-between;
+  }
+footer
+{
+    color:#E577B5;
+    display:flex;
+    flex: right;
+}
+#iframe
+{
+    width: 60%;
+  
+}
+#adresse
+{
+    font-size:10px;
+  
+}
+#foot
+{
+    color: white;
+    padding-left:85%;
+}
